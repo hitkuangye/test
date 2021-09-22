@@ -10,7 +10,6 @@
         "README.md",
         "huskylens.ts",
         "i2c.cpp",
-        "_locales/zh/mbit-strings.json",
         "main.ts",
         "shims.d.ts",
         "enums.d.ts"
