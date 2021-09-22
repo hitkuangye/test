@@ -1,23 +1,24 @@
 {
-    "name": "CUHK-JC iCAR",
-    "version": "1.0.0",
-    "description": "Extension for CUHK-JC iCAR",
-    "license": "MIT",
+    "name": "Huskylens",
+    "version": "2.0.3",
+    "description": "",
     "dependencies": {
-        "core": "*",
-        "neopixel": "github:lzty634158/pxt-neopixel"
-
-	
-
+        "core": "*"
     },
     "files": [
         "README.md",
-        "main.ts",
-        "_locales/zh/mbit-strings.json"
-
+        "huskylens.ts",
+        "_locales/zh-cn/Huskylens-strings.json",
+        "i2c.cpp",
+        "_locales/zh-tw/Huskylens-strings.json",
+        "shims.d.ts",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
