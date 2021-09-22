@@ -13,6 +13,10 @@
     "files": [
         "README.md",
         "main.ts",
+        "huskylens.ts",
+        "i2c.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
         "_locales/zh/mbit-strings.json"
 
     ],
