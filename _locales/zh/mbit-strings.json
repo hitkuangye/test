@@ -1,0 +1,34 @@
+{
+
+  "CUHK_JC_iCAR_Display.LED1|block": "LED|Pin %pin|Status %value",
+  "CUHK_JC_iCAR_Display.LED2|block": "LED|Pin %pin|Brightness %value",
+  "CUHK_JC_iCAR_Display.BreathLED|block": "BreathLED|Pin %pin",
+  "CUHK_JC_iCAR_Display.RGB|block": "RGB|PinR %pin1|PinG %pin2|PinB %pin3|Red %value1|Green %value2|Blue %value3",
+  "CUHK_JC_iCAR_Display.RGB2|block": "RGB|PinR %pin1|PinG %pin2|PinB %pin3|Display %value",
+
+  "CUHK_JC_iCAR_Input.TouchPad|block": "TouchPad|Pin %pin|Return %value",
+  "CUHK_JC_iCAR_Input.Rocker|block": "Rocker|VRX %pin1|VRY %pin2|SW %pin3|Return %value",
+  "CUHK_JC_iCAR_Input.Button|block": "Button|Pin %pin|Return %value",
+
+  "CUHK_JC_iCAR_Sensors.Voice_Sensor|block": "SoundSensor|Pin %pin|Return %value",
+  "CUHK_JC_iCAR_Sensors.IR_Sensor|block": "IRSensor|Pin %pin|  |%value|Blockade",
+  "CUHK_JC_iCAR_Sensors.IR_Send|block": "IRSend|Pin %pin",
+  "CUHK_JC_iCAR_Sensors.Ultrasonic|block": "UTS|SendPin %Trig|ReceivePin %Echo",
+
+  "CUHK_JC_iCAR_Sound.Buzzer|block": "Beep|Pin %pin|Value %value",
+
+  "CUHK_JC_iCAR_Motor.Fan|block": "Fan|Pin %pin|Speed %value",
+  "CUHK_JC_iCAR_Motor.Servo|block": "Servo|Pin %pin|Angle %value",
+
+  "CUHK_JC_iCAR_Vehicle.RGB_Car_Big|block": "RGBLight|Red %value1|Green %value2|Blue %value3",
+  "CUHK_JC_iCAR_Vehicle.RGB_Car_Big2|block": "RGBLight|SelectColor %value",
+  "CUHK_JC_iCAR_Vehicle.Ultrasonic_Car|block": "UTSReturn（cm）",
+  "CUHK_JC_iCAR_Vehicle.RGB_Car_Program|block": "RGB",
+  "CUHK_JC_iCAR_Vehicle.Music_Car|block": "PlaySound|%index",
+  "CUHK_JC_iCAR_Vehicle.Line_Sensor|block": "LineSensor|Location %direct|Detected %value",
+  "CUHK_JC_iCAR_Vehicle.Avoid_Sensor|block": "AvoidSensor|Detected %value",
+  "CUHK_JC_iCAR_Vehicle.Servo_Car|block": "Servo|No. %num|Angle %value",
+  "CUHK_JC_iCAR_Vehicle.CarCtrl|block": "CarControl|%index",
+  "CUHK_JC_iCAR_Vehicle.CarCtrlSpeed|block": "CarControl|%index|Speed %speed",
+  "CUHK_JC_iCAR_Vehicle.CarCtrlSpeed2|block": "CarControl|%index|LeftMotorSpeed %speed1|RightMotorSpeed %speed2"
+}
