@@ -17,7 +17,8 @@
         "i2c.cpp",
         "shims.d.ts",
         "enums.d.ts",
-        "_locales/zh/mbit-strings.json"
+        "_locales/zh-cn/Huskylens-strings.json",
+        "_locales/zh-tw/Huskylens-strings.json"
 
     ],
     "testFiles": [
